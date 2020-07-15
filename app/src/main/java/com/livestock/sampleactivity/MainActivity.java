@@ -12,14 +12,17 @@ public class MainActivity extends AppCompatActivity {
     Button Btn1;
     Button Btn;
 
+
+    Button Btn1s;
+    Button Btns;
+
+    EditText Edt1s;
     EditText Edt1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button Btn;
 
-
-
+        Btns=findViewById(R.id.button);
     }
 }
